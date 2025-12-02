@@ -316,7 +316,7 @@ class LeaflowAutoCheckin:
         
         try:
             # 先等待页面可能的重载
-            time.sleep(7)
+            time.sleep(5)
             
             # 使用和单账号成功时相同的选择器
             checkin_selectors = [
@@ -640,4 +640,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
